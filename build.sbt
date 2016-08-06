@@ -20,7 +20,7 @@ jsDependencies +=
     "org.webjars" % "jquery" % "2.1.3" / "2.1.3/jquery.js"
 
 
-bootSnippet := "com.mdelcid.ScalaJSExample().main();"
+bootSnippet := "com.mdelcid.H2RMain().main();"
 
 updateBrowsers <<= updateBrowsers.triggeredBy(fastOptJS in Compile)
 
