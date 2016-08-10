@@ -14,7 +14,12 @@ case class H2RAttribute(attr: Attr) {
 
 	val exceptions = Map(
 		"class" -> "className",
-		"type" -> "`type`"
+		"content" -> "contentAttr",
+		"crossorigin" -> "crossOrigin",
+
+		"type" -> "`type`",
+		"for" -> "`for`"
+
 	)
 
 	override def toString: String = {
